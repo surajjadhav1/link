@@ -1,5 +1,7 @@
-npm i react-router-dom
+React router dom
+----------------------------
 
+npm i react-router-dom
 
 index.js
 
@@ -11,11 +13,6 @@ replace by
 
 and import link top
 import { BrowserRouter } from 'react-router-dom';
-
-
-
-
-
 
 
 
