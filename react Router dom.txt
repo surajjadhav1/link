@@ -1,0 +1,46 @@
+npm i react-router-dom
+
+
+index.js
+
+<App /> 
+replace by
+<BrowserRouter>
+     <App/>
+ </BrowserRouter>
+
+and import link top
+import { BrowserRouter } from 'react-router-dom';
+
+
+
+
+
+
+
+
+
+App.js
+import { Routes, Route } from 'react-router-dom';
+
+  <div>
+    <Navbar/>
+        <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/listemp" element={<ListEmployee/>}></Route>
+        </Routes>
+        <Footer/>
+    </div>
+
+
+
+
+
+
+navbar.js
+import { Link } from 'react-router-dom'
+
+ <Link to="/" class="nav-link active" aria-current="page" href="#">Add Employee</Link>
+            
+
+
