@@ -2,7 +2,7 @@ React router dom
 ----------------------------
 
 npm i react-router-dom
-
+-------------------------------------
 index.js
 
 <App /> 
@@ -14,8 +14,7 @@ replace by
 and import link top
 import { BrowserRouter } from 'react-router-dom';
 
-
-
+-------------------------------------
 
 App.js
 import { Routes, Route } from 'react-router-dom';
@@ -29,9 +28,7 @@ import { Routes, Route } from 'react-router-dom';
         <Footer/>
     </div>
 
-
-
-
+-------------------------------------
 
 
 navbar.js
