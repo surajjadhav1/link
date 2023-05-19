@@ -1,9 +1,10 @@
-React router dom
-----------------------------
+React router dom step by step
+--------------------------------
+step 1:
 
 npm i react-router-dom
 -------------------------------------
-index.js
+steps 2: page --->  index.js
 
 <App /> 
 replace by
@@ -13,10 +14,9 @@ replace by
 
 and import link top
 import { BrowserRouter } from 'react-router-dom';
-
 -------------------------------------
+step 3: page ---> App.js
 
-App.js
 import { Routes, Route } from 'react-router-dom';
 
   <div>
@@ -29,9 +29,8 @@ import { Routes, Route } from 'react-router-dom';
     </div>
 
 -------------------------------------
+step 4: page --->  navbar.js
 
-
-navbar.js
 import { Link } from 'react-router-dom'
 
  <Link to="/" class="nav-link active" aria-current="page" href="#">Add Employee</Link>
