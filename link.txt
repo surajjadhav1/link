@@ -1,7 +1,5 @@
+// Git Command
 https://intellipaat.com/blog/tutorial/devops-tutorial/git-commands/
 
-git command link
-
-suraj jadhav
-
-push command
+// flexbox
+https://voracious.dev/blog/a-practical-cheat-sheet-for-css-flexbox        
